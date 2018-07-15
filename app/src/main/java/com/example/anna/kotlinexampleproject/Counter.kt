@@ -2,7 +2,7 @@ package com.example.anna.kotlinexampleproject
 
 class Counter {
     var incrementBy: Int = 1
-    var count: Int = 0
+    var count: Int = 0; private set
     private val min = 0
     private val max = 99999
 
